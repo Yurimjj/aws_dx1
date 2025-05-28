@@ -1,0 +1,115 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+/* 메인비주얼 */
+
+.section1 {
+    height: 654px;
+    text-align: center;
+    width: 1300px;
+    margin: 0 auto;
+    /* 좌우 자동 여백으로 중앙 정렬 */
+    border-radius: 20px;
+    /* background-image: url(./img/pc-cover-main.jpg);
+background-repeat: no-repeat;
+background-position: center top; */
+    background-color: rgb(133, 172, 172);
+    background-size: cover;
+    /* 박스를 꽉채운다 이미지가 잘린다 */
+}
+
+.section1 b {
+    display: block;
+    padding: 95px 0 15px;
+    color: #fff;
+    text-align: center;
+    font-size: 3em;
+}
+
+.section1>p {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+.section1 .container {
+    width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.section1 .container .quick {
+    float: left;
+    width: 270px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.877);
+    margin-right: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    /* 위치 변화를 위해 inline-block 권장 */
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.section1 .container .quick:hover {
+    transform: translateY(-5px);
+    background-color: rgb(241, 255, 255);
+}
+
+.section1 .container .quick.last {
+    margin-right: 0px;
+}
+
+
+.section1 .quick h3 {
+    margin: 55px 30px 30px 30px;
+    font-size: 28px;
+    background: url(../img/main/arrow.jpg) no-repeat right;
+    /* 주의: 앞에 background-repeat , background-position 등 주석처리할것 */
+}
+
+.section1 .quick p {
+    margin: 0 30px;
+    font-size: 18px;
+    letter-spacing: -1px;
+    color: rgb(139, 131, 131);
+}
+
+/* 섹션2 */
+.section2 {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.section2 div {
+    float: left;
+    width: 480px;
+    padding: 80px 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.section2 h3 {
+    font-size: 28px;
+    padding-bottom: 15px;
+}
+
+
+.section2 .intro1 {
+    background: url(../img/main/icon01.jpg) no-repeat;
+    background-position: right center;
+    margin-right: 180px;
+
+}
+
+.section2 .intro2 {
+    background: url(../img/main/icon02.jpg) no-repeat;
+    background-position: right center;
+}
+
+.section3 {
+    display: flex;
+    width: 1140px;
+    margin: 0 auto;
+}

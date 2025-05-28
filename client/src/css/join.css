@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+caption  {
+    position : absolute ;
+    left :9999em ;
+}
+
+#join_wrap  {
+    width : 800px ;
+    margin : 0  auto ;
+}
+#join_wrap  .title  {
+    padding :50px  0  20px ;
+    font-size :2em ;
+    font-weight : 700 ;
+}
+.joinTable  th , .joinTable  td {
+    padding :10px ;
+    box-sizing : border-box ;
+    border-bottom : 1px  solid  #7dbbe4 ;
+}
+.joinTable  th  {
+    width : 180px ;
+    text-align : left ;
+    background-color : #ceedf3bd ;
+}
+.joinTable  td  {
+    width : 620px ;
+}
+.joinTable  .first  {
+    border-top : 2px  solid  #7dbbe4 ;
+}
+.joinTable  .textForm  {
+    width : 420px ;
+    height : 42px ;
+    border :1px  solid  #ddd ;
+    border-radius : 5px ;
+    padding :0px  10px ;
+    box-sizing : border-box ;
+}
+/* 중복확인 */
+.joinTable  .btn  {
+    width : 80px ;
+    height : 42px ;
+    background-color : #5d92b6 ;
+    border :0 ;
+    border-radius : 5px ;
+    color :#fff ;
+}
+/* 텍스트에리어 */
+.joinTable  .textarea  {
+    width : 420px ;
+    height : 80px ;
+    border :1px  solid  #ddd ;
+    border-radius : 5px ;
+    padding :10px ;
+    box-sizing : border-box ;
+    /* 테두리의 두께를 포함한 크기를 지정 */
+}
+/* 버튼 */
+.btn_area  {
+    text-align :center  ;
+    margin : 30px  0 ;
+}
+.btn_area  button  {
+    width : 200px ;
+    height : 72px ;
+    margin : 0  10px ;
+    border :0 ;
+    font-size : 20px ;
+    border-radius: 10px;
+}
+.btn_area  .btn_join  {
+    background-color :  #7dbbe4 ;
+    color :#fff ;
+}
+
+.btn_area .btn_join:hover{
+    background-color: #4a94c5;
+    color: #fff;
+}

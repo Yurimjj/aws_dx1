@@ -1,0 +1,30 @@
+주민번호체크(12자+1자) = 13자 / 끝자리는 에러검증
+8012121671418
+234567892345
+
+주민번호체계
+150%11=7
+11-7=4 (이 값이 주민번호 마지막자리)
+
+
+<<상식임>>
+
+ls (list 목록보기, powersell 리눅스) dir(윈도우명령프롬포트)
+첫글자 d(디렉토리) -(파일)
+mkdir sample (sample폴더 만들기)
+cd sample (sample폴더로 들어가기 change directory)
+cp(copy) ../test1/html ./ (윗폴더의 test1.html를 현재폴더로 복사해라)
+rm(remove) test1.html (파일삭제)
+cd .. (윗폴더로 변경)
+
+
+Ctrl + c (작업중단 - 터미널에서)
+
+.(현재폴더)
+..(윗폴더)
+
+npm(node package manager) create-react-app
+npx (excuete)
+
+우선순위 index.js >> app.js
+a태그 대신 Link
